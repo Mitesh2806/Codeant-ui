@@ -2,10 +2,10 @@
 import Image from "next/image";
 import AntMain from '@/public/SigninAnt-1.svg';
 import { useState } from "react";
-import Github from '@/public/github.svg';
-import Bitbucket from '@/public/bitbucket.svg';
-import Azure from '@/public/azure.svg';
-import Gitlab from '@/public/gitlab.svg';
+import Github from '@/public/Github.svg';
+import Bitbucket from '@/public/Bitbucket.svg';
+import Azure from '@/public/Azure.svg';
+import Gitlab from '@/public/Gitlab.svg';
 import sso from '@/public/sso.svg';
 import Main_Button from '@/app/components/Main_Buttons/Main_Button';
 
@@ -43,7 +43,7 @@ export default function Signin_Card_Main() {
     };
 
     return (
-        <div className="w-[42em] h-[37.64625em] bg-white rounded-xl border-[1px] border-gray-300 mx-4">
+        <div className="md:w-[42em] w-[39em]  h-[37.64625em] bg-white rounded-xl border-[1px] border-gray-300 mx-4">
             <div className="container mx-1 mb-7 mt-9">
                 <div className="flex flex-row items-center justify-center">
                     <div className="flex items-center justify-center w-[201.38px] h-[40px] gap-[13.76px]">
@@ -74,7 +74,7 @@ export default function Signin_Card_Main() {
             </div>
 
             
-            <div className="container mx-auto px-6">{renderOptions()}</div>
+            <div className="container mx-auto md:px-6 px-3 ">{renderOptions()}</div>
         </div>
     );
 }
