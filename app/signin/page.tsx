@@ -12,10 +12,10 @@ export default function SignIn() {
         <main>
             <div className="w-screen h-screen grid grid-cols-1 md:grid-cols-2">
                
-                <div className="bg-white hidden md:flex justify-center items-center relative">
-                    <div className="mb-56">
+                <div className="bg-white hidden md:flex justify-center items-center ">
+                    <div className="mb-56 relative">
                         <Signin_Card_1 />
-                        <div className=" absolute top-[330px] left-[360px]">
+                        <div className=" absolute top-[150px] left-[205px]">
                         <Signin_Card_2 />
                         </div>
                         

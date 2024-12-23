@@ -13,7 +13,7 @@ export default function Signin_Card_1() {
         const animateLangCount = () => {
             let current = 0;
             const target = 30; 
-            const duration = 1; 
+            const duration = 0.5; 
 
             const interval = setInterval(() => {
                 current += Math.ceil(target / (duration * 60)); 
@@ -53,7 +53,7 @@ export default function Signin_Card_1() {
         const animateHoursCount = () => {
             let current = 0;
             const target = 100; 
-            const duration = 1; 
+            const duration = 0.5; 
 
             const interval = setInterval(() => {
                 current += Math.ceil(target / (duration * 60)); 
